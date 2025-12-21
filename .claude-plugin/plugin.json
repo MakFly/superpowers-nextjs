@@ -1,0 +1,42 @@
+{
+  "name": "superpowers-nextjs",
+  "version": "0.1.0",
+  "description": "A Next.js 16 focused toolkit for Claude Code providing App Router patterns, Server Components, Server Actions, data fetching strategies, caching, testing with Jest/Vitest/Playwright, and modern React architecture - compatible with npm/yarn/pnpm/bun",
+  "author": "MakFly",
+  "license": "MIT",
+  "homepage": "https://github.com/MakFly/superpowers-nextjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakFly/superpowers-nextjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MakFly/superpowers-nextjs/issues"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "app-router",
+    "server-components",
+    "server-actions",
+    "typescript",
+    "skills",
+    "tdd",
+    "testing",
+    "playwright",
+    "vitest",
+    "jest",
+    "tailwind",
+    "nextdevtools",
+    "mcp",
+    "claude-code",
+    "claude-code-plugin"
+  ],
+  "engines": {
+    "claude-code": ">=2.0.0"
+  },
+  "categories": [
+    "frameworks",
+    "testing",
+    "productivity"
+  ]
+}
