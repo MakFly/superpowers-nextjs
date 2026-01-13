@@ -1,6 +1,13 @@
 ---
 name: nextjs:quality-checks
 description: Quality assurance checks for Next.js - ESLint, TypeScript, testing, performance, and code standards validation
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:quality-checks (Compact)

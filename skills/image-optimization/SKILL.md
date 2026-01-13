@@ -1,6 +1,13 @@
 ---
 name: nextjs:image-optimization
 description: Optimize images with next/image - responsive images, lazy loading, and format optimization
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:image-optimization (Compact)

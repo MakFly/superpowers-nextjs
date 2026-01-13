@@ -1,6 +1,13 @@
 ---
 name: nextjs:tailwind-integration
 description: Configure and use Tailwind CSS with Next.js including dark mode and custom themes
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:tailwind-integration (Compact)

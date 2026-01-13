@@ -1,6 +1,13 @@
 ---
 name: nextjs:form-handling
 description: Build forms with useFormState, useFormStatus, and progressive enhancement patterns
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:form-handling (Compact)

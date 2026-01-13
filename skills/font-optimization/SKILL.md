@@ -1,6 +1,13 @@
 ---
 name: nextjs:font-optimization
 description: Load fonts optimally with next/font for self-hosted or Google Fonts with zero layout shift
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:font-optimization (Compact)

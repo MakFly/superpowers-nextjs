@@ -1,6 +1,13 @@
 ---
 name: nextjs:server-actions
 description: Create Server Actions with 'use server' for mutations, form submissions, and data modifications
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:server-actions (Compact)

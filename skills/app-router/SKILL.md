@@ -1,6 +1,13 @@
 ---
 name: nextjs:app-router
 description: Master Next.js App Router fundamentals - layouts, pages, templates, and the component hierarchy
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:app-router (Compact)

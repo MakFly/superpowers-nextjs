@@ -1,6 +1,13 @@
 ---
 name: nextjs:testing-with-vitest
 description: Use Vitest for fast unit and integration testing with native ESM and TypeScript support
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:testing-with-vitest (Compact)

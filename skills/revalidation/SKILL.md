@@ -1,6 +1,13 @@
 ---
 name: nextjs:revalidation
 description: Master revalidatePath, revalidateTag, and on-demand revalidation for cache invalidation
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:revalidation (Compact)

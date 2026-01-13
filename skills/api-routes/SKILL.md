@@ -1,6 +1,13 @@
 ---
 name: nextjs:api-routes
 description: Build API endpoints in app/api with route.ts handlers and HTTP method exports for RESTful services
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:api-routes (Compact)

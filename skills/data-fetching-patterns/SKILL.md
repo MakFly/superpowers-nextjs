@@ -1,6 +1,13 @@
 ---
 name: nextjs:data-fetching-patterns
 description: Implement data fetching with fetch(), cache(), and async components with proper error handling
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:data-fetching-patterns (Compact)

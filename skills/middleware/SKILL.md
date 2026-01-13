@@ -1,6 +1,13 @@
 ---
 name: nextjs:middleware
 description: Implement middleware.ts for authentication, redirects, and request modification with pattern matching and conditional logic
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:middleware (Compact)

@@ -1,6 +1,13 @@
 ---
 name: nextjs:css-modules
 description: Use CSS Modules for scoped, component-level styling with TypeScript support
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:css-modules (Compact)

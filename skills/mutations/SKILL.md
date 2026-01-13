@@ -1,6 +1,13 @@
 ---
 name: nextjs:mutations
 description: Implement optimistic updates, error handling, and rollback patterns for data mutations
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:mutations (Compact)

@@ -1,6 +1,13 @@
 ---
 name: nextjs:intercepting-routes
 description: Implement route interception with (.), (..), (..)(..), and (...) for modals
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:intercepting-routes (Compact)

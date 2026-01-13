@@ -1,6 +1,13 @@
 ---
 name: nextjs:error-handling
 description: Implement error boundaries with error.tsx, global-error.tsx, and graceful degradation
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:error-handling (Compact)

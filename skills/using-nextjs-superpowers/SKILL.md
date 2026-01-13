@@ -1,6 +1,13 @@
 ---
 name: nextjs:using-nextjs-superpowers
 description: Entry point for Next.js Superpowers - lightweight workflow guidance and command map.
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # Using Next.js Superpowers (Compact)

@@ -1,6 +1,13 @@
 ---
 name: nextjs:lazy-loading
 description: Implement lazy loading with dynamic imports, React.lazy, and Suspense boundaries
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - Glob
+  - Grep
 ---
 
 # nextjs:lazy-loading (Compact)
