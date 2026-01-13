@@ -1,6 +1,6 @@
 ---
 name: nextjs:nextdevtools-mcp-integration
-description: NextDevTools MCP integration for Next.js 16 - development tools, server management, and debugging capabilities
+description: Use when nextDevTools MCP integration for Next.js 16 - development tools, server management, and debugging capabilities
 allowed-tools:
   - Read
   - Write

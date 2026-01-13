@@ -1,6 +1,6 @@
 ---
 name: nextjs:e2e-playwright
-description: Write end-to-end tests with Playwright for full browser testing and visual regression
+description: Use when write end-to-end tests with Playwright for full browser testing and visual regression
 allowed-tools:
   - Read
   - Write

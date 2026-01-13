@@ -1,6 +1,6 @@
 ---
 name: nextjs:parallel-routes
-description: Create simultaneous rendering with @folder slots for complex dashboard layouts
+description: Use when create simultaneous rendering with @folder slots for complex dashboard layouts
 allowed-tools:
   - Read
   - Write

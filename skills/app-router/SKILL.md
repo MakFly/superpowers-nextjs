@@ -1,6 +1,6 @@
 ---
 name: nextjs:app-router
-description: Master Next.js App Router fundamentals - layouts, pages, templates, and the component hierarchy
+description: Use when master Next.js App Router fundamentals - layouts, pages, templates, and the component hierarchy
 allowed-tools:
   - Read
   - Write

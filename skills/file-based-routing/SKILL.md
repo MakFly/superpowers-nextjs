@@ -1,6 +1,6 @@
 ---
 name: nextjs:file-based-routing
-description: Understand file-based routing conventions with page.tsx, layout.tsx, loading.tsx, error.tsx, and not-found.tsx
+description: Use when understand file-based routing conventions with page.tsx, layout.tsx, loading.tsx, error.tsx, and not-found.tsx
 allowed-tools:
   - Read
   - Write

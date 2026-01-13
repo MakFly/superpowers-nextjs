@@ -1,6 +1,6 @@
 ---
 name: nextjs:testing-with-jest
-description: Configure and write tests with Jest and React Testing Library for Next.js applications
+description: Use when configure and write tests with Jest and React Testing Library for Next.js applications
 allowed-tools:
   - Read
   - Write

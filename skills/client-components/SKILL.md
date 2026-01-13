@@ -1,6 +1,6 @@
 ---
 name: nextjs:client-components
-description: Use 'use client' directive for interactive components with hooks, event handlers, and browser APIs
+description: Use when use 'use client' directive for interactive components with hooks, event handlers, and browser APIs
 allowed-tools:
   - Read
   - Write

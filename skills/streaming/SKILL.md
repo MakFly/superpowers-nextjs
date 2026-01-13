@@ -1,6 +1,6 @@
 ---
 name: nextjs:streaming
-description: Use streaming SSR with loading.tsx, Suspense, and progressive rendering patterns
+description: Use when use streaming SSR with loading.tsx, Suspense, and progressive rendering patterns
 allowed-tools:
   - Read
   - Write

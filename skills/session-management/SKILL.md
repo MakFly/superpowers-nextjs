@@ -1,6 +1,6 @@
 ---
 name: nextjs:session-management
-description: Manage sessions with cookies, server-side validation, and protected route patterns for secure user state
+description: Use when manage sessions with cookies, server-side validation, and protected route patterns for secure user state
 allowed-tools:
   - Read
   - Write

@@ -1,11 +1,8 @@
 ---
 name: nextjs:executing-plans
-description: Test-driven development execution for Next.js - implementing features through tests, TDD workflows, and quality assurance
+description: Use when test-driven development execution for Next.js - implementing features through tests, TDD workflows, and quality assurance
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---

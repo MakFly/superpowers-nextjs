@@ -1,6 +1,6 @@
 ---
 name: nextjs:writing-plans
-description: Implementation planning for Next.js features - task breakdown, dependency analysis, and execution roadmaps
+description: Use when implementation planning for Next.js features - task breakdown, dependency analysis, and execution roadmaps
 allowed-tools:
   - Read
   - Glob

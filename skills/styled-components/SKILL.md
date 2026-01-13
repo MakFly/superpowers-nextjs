@@ -1,6 +1,6 @@
 ---
 name: nextjs:styled-components
-description: Integrate styled-components or CSS-in-JS solutions with App Router and RSC
+description: Use when integrate styled-components or CSS-in-JS solutions with App Router and RSC
 allowed-tools:
   - Read
   - Write

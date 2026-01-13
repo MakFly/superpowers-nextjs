@@ -1,6 +1,6 @@
 ---
 name: nextjs:project-structure
-description: Organize Next.js projects with feature-based or layer-based folder structures
+description: Use when organize Next.js projects with feature-based or layer-based folder structures
 allowed-tools:
   - Read
   - Glob

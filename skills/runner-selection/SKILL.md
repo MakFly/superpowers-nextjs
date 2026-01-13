@@ -1,6 +1,6 @@
 ---
 name: nextjs:runner-selection
-description: Select and configure the appropriate package manager (npm/yarn/pnpm/bun) based on project configuration
+description: Use when select and configure the appropriate package manager (npm/yarn/pnpm/bun) based on project configuration
 allowed-tools:
   - Read
   - Glob

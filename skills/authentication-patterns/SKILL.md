@@ -1,6 +1,6 @@
 ---
 name: nextjs:authentication-patterns
-description: Implement authentication with NextAuth.js v5, JWT tokens, and server-side session validation for secure user management
+description: Use when implement authentication with NextAuth.js v5, JWT tokens, and server-side session validation for secure user management
 allowed-tools:
   - Read
   - Write

@@ -1,6 +1,6 @@
 ---
 name: nextjs:route-handlers
-description: Create route handlers with Request/Response APIs, streaming, and edge runtime support for advanced API features
+description: Use when create route handlers with Request/Response APIs, streaming, and edge runtime support for advanced API features
 allowed-tools:
   - Read
   - Write

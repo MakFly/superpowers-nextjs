@@ -1,6 +1,6 @@
 ---
 name: nextjs:image-optimization
-description: Optimize images with next/image - responsive images, lazy loading, and format optimization
+description: Use when optimize images with next/image - responsive images, lazy loading, and format optimization
 allowed-tools:
   - Read
   - Write

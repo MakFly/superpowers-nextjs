@@ -1,6 +1,6 @@
 ---
 name: nextjs:composition-patterns
-description: Apply component composition, render props, and compound components for reusable UI
+description: Use when apply component composition, render props, and compound components for reusable UI
 allowed-tools:
   - Read
   - Write

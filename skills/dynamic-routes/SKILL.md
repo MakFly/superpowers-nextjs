@@ -1,6 +1,6 @@
 ---
 name: nextjs:dynamic-routes
-description: Implement dynamic routes with [param], [...catchAll], and [[...optionalCatchAll]] patterns
+description: Use when implement dynamic routes with [param], [...catchAll], and [[...optionalCatchAll]] patterns
 allowed-tools:
   - Read
   - Write

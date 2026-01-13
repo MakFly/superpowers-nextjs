@@ -1,6 +1,6 @@
 ---
 name: nextjs:react-testing-library
-description: Test React components with RTL best practices - queries, user events, and async testing
+description: Use when test React components with RTL best practices - queries, user events, and async testing
 allowed-tools:
   - Read
   - Write

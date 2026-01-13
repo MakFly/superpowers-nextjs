@@ -1,6 +1,6 @@
 ---
 name: nextjs:caching-strategies
-description: Master Next.js 16 caching with Cache Components, 'use cache' directive, and revalidation strategies
+description: Use when master Next.js 16 caching with Cache Components, 'use cache' directive, and revalidation strategies
 allowed-tools:
   - Read
   - Write

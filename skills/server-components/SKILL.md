@@ -1,6 +1,6 @@
 ---
 name: nextjs:server-components
-description: Build with React Server Components (RSC) - async components, data fetching, and zero-JS patterns for optimal performance
+description: Use when build with React Server Components (RSC) - async components, data fetching, and zero-JS patterns for optimal performance
 allowed-tools:
   - Read
   - Write

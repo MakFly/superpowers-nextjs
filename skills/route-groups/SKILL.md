@@ -1,6 +1,6 @@
 ---
 name: nextjs:route-groups
-description: Organize routes with (group) folders for shared layouts and logical organization
+description: Use when organize routes with (group) folders for shared layouts and logical organization
 allowed-tools:
   - Read
   - Write

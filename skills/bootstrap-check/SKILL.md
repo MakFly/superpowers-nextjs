@@ -1,6 +1,6 @@
 ---
 name: nextjs:bootstrap-check
-description: Verify Next.js project configuration including next.config, TypeScript, ESLint, and App Router setup
+description: Use when verify Next.js project configuration including next.config, TypeScript, ESLint, and App Router setup
 allowed-tools:
   - Read
   - Glob
