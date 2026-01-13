@@ -1,34 +1,25 @@
 ---
 name: nextjs:streaming
-description: Use when use streaming SSR with loading.tsx, Suspense, and progressive rendering patterns
+description: Use when nextjs streaming
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:streaming (Compact)
+# nextjs:streaming (Micro)
 
 ## Use when
-- Use streaming SSR with loading.tsx, Suspense, and progressive rendering patterns
+- Use when nextjs streaming
 
-## Topics covered
-- Core Concepts
-- Suspense with Streaming
-- Loading UI Patterns
-- Server Components with Streaming
-- Advanced Streaming Patterns
-- Performance Optimization
-- Skeleton Screens
-- Error Handling with Streaming
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

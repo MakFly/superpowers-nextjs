@@ -1,31 +1,25 @@
 ---
 name: nextjs:writing-plans
-description: Use when implementation planning for Next.js features - task breakdown, dependency analysis, and execution roadmaps
+description: Use when nextjs writing plans
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# nextjs:writing-plans (Compact)
+# nextjs:writing-plans (Micro)
 
 ## Use when
-- Implementation planning for Next.js features - task breakdown, dependency analysis, and execution roadmaps
+- Use when nextjs writing plans
 
-## Topics covered
-- Overview
-- Implementation Plan Template
-- Feature: [Feature Name]
-- Technical Requirements
-- Task Breakdown
-- Task Dependencies
-- Risk Analysis
-- Definition of Done
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

@@ -1,6 +1,6 @@
 ---
 name: nextjs:authentication-patterns
-description: Use when implement authentication with NextAuth.js v5, JWT tokens, and server-side session validation for secure user management
+description: Use when nextjs authentication patterns
 allowed-tools:
   - Read
   - Write
@@ -10,25 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:authentication-patterns (Compact)
+# nextjs:authentication-patterns (Micro)
 
 ## Use when
-- Implement authentication with NextAuth.js v5, JWT tokens, and server-side session validation for secure user management
+- Use when nextjs authentication patterns
 
-## Topics covered
-- NextAuth.js v5 Setup
-- API Routes Configuration
-- Sign In Server Action
-- Protected Components
-- Role-Based Component Access
-- Login Form Component
-- JWT-Based Custom Authentication
-- Protected API Routes
+## Tags
+- auth
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

@@ -1,34 +1,25 @@
 ---
 name: nextjs:intercepting-routes
-description: Use when implement route interception with (.), (..), (..)(..), and (...) for modals
+description: Use when nextjs intercepting routes
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:intercepting-routes (Compact)
+# nextjs:intercepting-routes (Micro)
 
 ## Use when
-- Implement route interception with (.), (..), (..)(..), and (...) for modals
+- Use when nextjs intercepting routes
 
-## Topics covered
-- Concept
-- Syntaxe de Base
-- Exemple 1: Blog avec Modal d'Article
-- Exemple 2: Galerie Photo avec Lightbox
-- Exemple 3: E-commerce avec Modals Multiples
-- Comportement au Rechargement
-- Comparaison Conventions
-- Best Practices
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

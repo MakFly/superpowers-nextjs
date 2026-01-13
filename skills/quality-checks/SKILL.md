@@ -1,31 +1,28 @@
 ---
 name: nextjs:quality-checks
-description: Use when quality assurance checks for Next.js - ESLint, TypeScript, testing, performance, and code standards validation
+description: Use when nextjs quality checks
 allowed-tools:
   - Read
+  - Write
+  - Edit
+  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:quality-checks (Compact)
+# nextjs:quality-checks (Micro)
 
 ## Use when
-- Quality assurance checks for Next.js - ESLint, TypeScript, testing, performance, and code standards validation
+- Use when nextjs quality checks
 
-## Topics covered
-- Overview
-- Pre-commit Quality Gates
-- 1. TypeScript Checks
-- 2. ESLint Checks
-- 3. Testing Quality Gates
-- Test Quality Standards
-- 4. Performance Checks
-- Performance Metrics
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

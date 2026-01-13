@@ -1,31 +1,25 @@
 ---
 name: nextjs:project-structure
-description: Use when organize Next.js projects with feature-based or layer-based folder structures
+description: Use when nextjs project structure
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# nextjs:project-structure (Compact)
+# nextjs:project-structure (Micro)
 
 ## Use when
-- Organize Next.js projects with feature-based or layer-based folder structures
+- Use when nextjs project structure
 
-## Topics covered
-- Core Principles
-- Feature-Based Architecture
-- Layer-Based Architecture
-- Hybrid Approach (Recommended)
-- Module Index Files
-- File Naming Conventions
-- Directory with Clear Responsibilities
-- Monorepo Structure (Optional)
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

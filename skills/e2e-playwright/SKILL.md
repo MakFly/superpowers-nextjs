@@ -1,34 +1,25 @@
 ---
 name: nextjs:e2e-playwright
-description: Use when write end-to-end tests with Playwright for full browser testing and visual regression
+description: Use when nextjs e2e playwright
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:e2e-playwright (Compact)
+# nextjs:e2e-playwright (Micro)
 
 ## Use when
-- Write end-to-end tests with Playwright for full browser testing and visual regression
+- Use when nextjs e2e playwright
 
-## Topics covered
-- Installation
-- Configuration
-- Basic Navigation Test
-- Form Testing
-- Authentication Flow
-- API Interception and Mocking
-- Visual Regression Testing
-- Performance Testing
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

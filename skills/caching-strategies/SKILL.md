@@ -1,34 +1,25 @@
 ---
 name: nextjs:caching-strategies
-description: Use when master Next.js 16 caching with Cache Components, 'use cache' directive, and revalidation strategies
+description: Use when nextjs caching strategies
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:caching-strategies (Compact)
+# nextjs:caching-strategies (Micro)
 
 ## Use when
-- Master Next.js 16 caching with Cache Components, 'use cache' directive, and revalidation strategies
+- Use when nextjs caching strategies
 
-## Topics covered
-- Caching Layers in Next.js
-- Request Memoization (Automatic)
-- Data Cache with Revalidation
-- The `use cache` Directive
-- Cache Components (Experimental)
-- Full Route Caching
-- Router Cache (Client-Side)
-- Strategic Caching for E-Commerce
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

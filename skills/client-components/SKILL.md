@@ -1,6 +1,6 @@
 ---
 name: nextjs:client-components
-description: Use when use 'use client' directive for interactive components with hooks, event handlers, and browser APIs
+description: Use when nextjs client components
 allowed-tools:
   - Read
   - Write
@@ -10,24 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:client-components (Compact)
+# nextjs:client-components (Micro)
 
 ## Use when
-- Use 'use client' directive for interactive components with hooks, event handlers, and browser APIs
+- Use when nextjs client components
 
-## Topics covered
-- Understanding Client Components
-- Key Features
-- Forms and User Input
-- State Management with Hooks
-- Browser APIs
-- Event Handling Patterns
-- Client vs Server: When to Use Each
+## Tags
+- client
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

@@ -1,33 +1,25 @@
 ---
 name: nextjs:error-handling
-description: Use when implement error boundaries with error.tsx, global-error.tsx, and graceful degradation
+description: Use when nextjs error handling
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:error-handling (Compact)
+# nextjs:error-handling (Micro)
 
 ## Use when
-- Implement error boundaries with error.tsx, global-error.tsx, and graceful degradation
+- Use when nextjs error handling
 
-## Topics covered
-- File-Based Error Boundaries
-- Client-Side Error Boundaries
-- Server-Side Error Handling
-- Graceful Degradation
-- Error Logging and Monitoring
-- Error Recovery Strategies
-- Summary
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

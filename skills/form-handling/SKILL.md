@@ -1,6 +1,6 @@
 ---
 name: nextjs:form-handling
-description: Use when build forms with useFormState, useFormStatus, and progressive enhancement patterns
+description: Use when nextjs form handling
 allowed-tools:
   - Read
   - Write
@@ -10,23 +10,19 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:form-handling (Compact)
+# nextjs:form-handling (Micro)
 
 ## Use when
-- Build forms with useFormState, useFormStatus, and progressive enhancement patterns
+- Use when nextjs form handling
 
-## Topics covered
-- Concept
-- Fondamentaux
-- Patterns Avancés
-- Progressive Enhancement
-- Best Practices
-- Points Clés
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

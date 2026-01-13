@@ -1,34 +1,25 @@
 ---
 name: nextjs:route-groups
-description: Use when organize routes with (group) folders for shared layouts and logical organization
+description: Use when nextjs route groups
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:route-groups (Compact)
+# nextjs:route-groups (Micro)
 
 ## Use when
-- Organize routes with (group) folders for shared layouts and logical organization
+- Use when nextjs route groups
 
-## Topics covered
-- Concept
-- Syntaxe et Comportement
-- Cas d'Usage Principal: Layouts Différents
-- Exemple 2: Site Multi-tenant avec Marques
-- Exemple 3: Structure Marketing + API + Docs
-- Combinaison avec les Segments Dynamiques
-- Multiple Groupes au Même Niveau
-- Nommage et Conventions
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

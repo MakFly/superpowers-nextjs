@@ -1,31 +1,25 @@
 ---
 name: nextjs:runner-selection
-description: Use when select and configure the appropriate package manager (npm/yarn/pnpm/bun) based on project configuration
+description: Use when nextjs runner selection
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# nextjs:runner-selection (Compact)
+# nextjs:runner-selection (Micro)
 
 ## Use when
-- Select and configure the appropriate package manager (npm/yarn/pnpm/bun) based on project configuration
+- Use when nextjs runner selection
 
-## Topics covered
-- Package Manager Detection
-- NPM - Node Package Manager
-- Yarn - Facebook's Package Manager
-- PNPM - Performant Node Package Manager
-- Bun - Modern JavaScript Runtime
-- Migration Guide
-- Configuration per Runner
-- Consistency Enforcement
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

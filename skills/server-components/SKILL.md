@@ -1,6 +1,6 @@
 ---
 name: nextjs:server-components
-description: Use when build with React Server Components (RSC) - async components, data fetching, and zero-JS patterns for optimal performance
+description: Use when nextjs server components
 allowed-tools:
   - Read
   - Write
@@ -10,24 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:server-components (Compact)
+# nextjs:server-components (Micro)
 
 ## Use when
-- Build with React Server Components (RSC) - async components, data fetching, and zero-JS patterns for optimal performance
+- Use when nextjs server components
 
-## Topics covered
-- Core Concepts
-- Async Components Pattern
-- Data Fetching in Server Components
-- Streaming with Server Components
-- Server Component Limitations
-- Best Practices
-- Real-World Examples
+## Tags
+- server
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

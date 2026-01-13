@@ -1,6 +1,6 @@
 ---
 name: nextjs:mutations
-description: Use when implement optimistic updates, error handling, and rollback patterns for data mutations
+description: Use when nextjs mutations
 allowed-tools:
   - Read
   - Write
@@ -10,24 +10,19 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:mutations (Compact)
+# nextjs:mutations (Micro)
 
 ## Use when
-- Implement optimistic updates, error handling, and rollback patterns for data mutations
+- Use when nextjs mutations
 
-## Topics covered
-- Concept
-- Optimistic Updates
-- Gestion Avancée des Erreurs
-- Patterns de Rollback
-- Gestion de Multiples Mutations
-- Mutation avec Undo
-- Points Clés
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

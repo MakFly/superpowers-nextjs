@@ -1,34 +1,25 @@
 ---
 name: nextjs:styled-components
-description: Use when integrate styled-components or CSS-in-JS solutions with App Router and RSC
+description: Use when nextjs styled components
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:styled-components (Compact)
+# nextjs:styled-components (Micro)
 
 ## Use when
-- Integrate styled-components or CSS-in-JS solutions with App Router and RSC
+- Use when nextjs styled components
 
-## Topics covered
-- Setup and Configuration
-- Core Concepts
-- Advanced Patterns
-- Theming with styled-components
-- Server Components with styled-components
-- Performance Considerations
-- Testing
-- File Structure
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

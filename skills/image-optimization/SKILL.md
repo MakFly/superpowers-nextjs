@@ -1,34 +1,25 @@
 ---
 name: nextjs:image-optimization
-description: Use when optimize images with next/image - responsive images, lazy loading, and format optimization
+description: Use when nextjs image optimization
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:image-optimization (Compact)
+# nextjs:image-optimization (Micro)
 
 ## Use when
-- Optimize images with next/image - responsive images, lazy loading, and format optimization
+- Use when nextjs image optimization
 
-## Topics covered
-- Core Concepts
-- Basic Usage
-- Responsive Images
-- Advanced Optimization
-- Format Optimization
-- Priority and Lazy Loading
-- Dynamic Image Sizing
-- Performance Monitoring
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

@@ -1,34 +1,25 @@
 ---
 name: nextjs:parallel-routes
-description: Use when create simultaneous rendering with @folder slots for complex dashboard layouts
+description: Use when nextjs parallel routes
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:parallel-routes (Compact)
+# nextjs:parallel-routes (Micro)
 
 ## Use when
-- Create simultaneous rendering with @folder slots for complex dashboard layouts
+- Use when nextjs parallel routes
 
-## Topics covered
-- Concept
-- Syntaxe
-- Utilisation Basique: Dashboard Multi-sections
-- Exemple Avancé: Dashboard avec Modals et Notifications
-- Fichiers Spéciaux avec Slots
-- Parallel Routes avec Segments Dynamiques
-- Navigation et État entre Slots
-- Parallel Routes avec Route Groups
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

@@ -1,34 +1,25 @@
 ---
 name: nextjs:app-router
-description: Use when master Next.js App Router fundamentals - layouts, pages, templates, and the component hierarchy
+description: Use when nextjs app router
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:app-router (Compact)
+# nextjs:app-router (Micro)
 
 ## Use when
-- Master Next.js App Router fundamentals - layouts, pages, templates, and the component hierarchy
+- Use when nextjs app router
 
-## Topics covered
-- Concept
-- Architecture Hiérarchique
-- Types de Fichiers Spéciaux
-- Hiérarchie des Composants
-- Exemple Complet: Blog avec Layouts Imbriqués
-- Best Practices
-- Use Cases Courants
-- Points Clés
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

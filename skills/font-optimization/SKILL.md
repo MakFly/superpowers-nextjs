@@ -1,34 +1,25 @@
 ---
 name: nextjs:font-optimization
-description: Use when load fonts optimally with next/font for self-hosted or Google Fonts with zero layout shift
+description: Use when nextjs font optimization
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:font-optimization (Compact)
+# nextjs:font-optimization (Micro)
 
 ## Use when
-- Load fonts optimally with next/font for self-hosted or Google Fonts with zero layout shift
+- Use when nextjs font optimization
 
-## Topics covered
-- Core Concepts
-- Google Fonts Integration
-- Self-Hosted Fonts
-- CSS Variable Integration
-- Font Loading Strategies
-- Advanced Patterns
-- Performance Monitoring
-- TypeScript Support
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

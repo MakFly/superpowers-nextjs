@@ -1,6 +1,6 @@
 ---
 name: nextjs:testing-with-vitest
-description: Use when use Vitest for fast unit and integration testing with native ESM and TypeScript support
+description: Use when nextjs testing with vitest
 allowed-tools:
   - Read
   - Write
@@ -10,25 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:testing-with-vitest (Compact)
+# nextjs:testing-with-vitest (Micro)
 
 ## Use when
-- Use Vitest for fast unit and integration testing with native ESM and TypeScript support
+- Use when nextjs testing with vitest
 
-## Topics covered
-- Installation
-- Configuration
-- Unit Testing Examples
-- Integration Testing
-- Async Testing
-- Snapshot Testing
-- Mocking Modules
-- Running Tests
+## Tags
+- testing
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

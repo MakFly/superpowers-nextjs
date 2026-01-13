@@ -1,33 +1,25 @@
 ---
 name: nextjs:revalidation
-description: Use when master revalidatePath, revalidateTag, and on-demand revalidation for cache invalidation
+description: Use when nextjs revalidation
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:revalidation (Compact)
+# nextjs:revalidation (Micro)
 
 ## Use when
-- Master revalidatePath, revalidateTag, and on-demand revalidation for cache invalidation
+- Use when nextjs revalidation
 
-## Topics covered
-- Concept
-- revalidatePath
-- revalidateTag
-- Patterns Avancés
-- Stratégies de Caching Hybrides
-- Best Practices
-- Points Clés
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

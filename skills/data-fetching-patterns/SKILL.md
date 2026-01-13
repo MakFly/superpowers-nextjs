@@ -1,33 +1,28 @@
 ---
 name: nextjs:data-fetching-patterns
-description: Use when implement data fetching with fetch(), cache(), and async components with proper error handling
+description: Use when nextjs data fetching patterns
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:data-fetching-patterns (Compact)
+# nextjs:data-fetching-patterns (Micro)
 
 ## Use when
-- Implement data fetching with fetch(), cache(), and async components with proper error handling
+- Use when nextjs data fetching patterns
 
-## Topics covered
-- Core Concepts
-- Common Fetching Patterns
-- Parallel Data Fetching
-- Error Handling and Loading States
-- Incremental Static Regeneration (ISR)
-- Combining Server and Client Fetching
-- Caching Headers Best Practices
+## Tags
+- data
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

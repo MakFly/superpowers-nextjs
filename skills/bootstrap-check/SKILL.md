@@ -1,30 +1,25 @@
 ---
 name: nextjs:bootstrap-check
-description: Use when verify Next.js project configuration including next.config, TypeScript, ESLint, and App Router setup
+description: Use when nextjs bootstrap check
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# nextjs:bootstrap-check (Compact)
+# nextjs:bootstrap-check (Micro)
 
 ## Use when
-- Verify Next.js project configuration including next.config, TypeScript, ESLint, and App Router setup
+- Use when nextjs bootstrap check
 
-## Topics covered
-- Overview
-- Configuration Files Checklist
-- Diagnostic Commands
-- Automated Fix Commands
-- Common Issues & Solutions
-- Checklist Template
-- Next Steps
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

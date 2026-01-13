@@ -1,34 +1,25 @@
 ---
 name: nextjs:route-handlers
-description: Use when create route handlers with Request/Response APIs, streaming, and edge runtime support for advanced API features
+description: Use when nextjs route handlers
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:route-handlers (Compact)
+# nextjs:route-handlers (Micro)
 
 ## Use when
-- Create route handlers with Request/Response APIs, streaming, and edge runtime support for advanced API features
+- Use when nextjs route handlers
 
-## Topics covered
-- Advanced Request/Response Patterns
-- Streaming Responses
-- Server-Sent Events (SSE)
-- File Download with Streaming
-- Webhook Handlers
-- Form Submission Handling
-- Conditional Responses
-- Edge Runtime Route Handler
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

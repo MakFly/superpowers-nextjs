@@ -1,31 +1,28 @@
 ---
 name: nextjs:executing-plans
-description: Use when test-driven development execution for Next.js - implementing features through tests, TDD workflows, and quality assurance
+description: Use when nextjs executing plans
 allowed-tools:
   - Read
+  - Write
+  - Edit
+  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:executing-plans (Compact)
+# nextjs:executing-plans (Micro)
 
 ## Use when
-- Test-driven development execution for Next.js - implementing features through tests, TDD workflows, and quality assurance
+- Use when nextjs executing plans
 
-## Topics covered
-- Overview
-- TDD Workflow
-- TDD Best Practices
-- Component Testing
-- Integration Testing
-- E2E Testing
-- Continuous Testing
-- Test Coverage
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

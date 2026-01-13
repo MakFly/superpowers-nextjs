@@ -1,34 +1,25 @@
 ---
 name: nextjs:css-modules
-description: Use when use CSS Modules for scoped, component-level styling with TypeScript support
+description: Use when nextjs css modules
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:css-modules (Compact)
+# nextjs:css-modules (Micro)
 
 ## Use when
-- Use CSS Modules for scoped, component-level styling with TypeScript support
+- Use when nextjs css modules
 
-## Topics covered
-- Core Concepts
-- Basic Usage
-- Advanced Patterns
-- Best Practices
-- Global Styles Integration
-- TypeScript Support
-- Performance Tips
-- File Structure Example
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

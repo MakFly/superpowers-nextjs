@@ -1,6 +1,6 @@
 ---
 name: nextjs:server-actions
-description: Use when create Server Actions with 'use server' for mutations, form submissions, and data modifications
+description: Use when nextjs server actions
 allowed-tools:
   - Read
   - Write
@@ -10,24 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:server-actions (Compact)
+# nextjs:server-actions (Micro)
 
 ## Use when
-- Create Server Actions with 'use server' for mutations, form submissions, and data modifications
+- Use when nextjs server actions
 
-## Topics covered
-- Concept
-- Fondamentaux
-- Patterns Avancés
-- Best Practices
-- Security Considerations
-- Patterns Courants
-- Points Clés
+## Tags
+- server, actions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

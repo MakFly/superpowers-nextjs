@@ -1,33 +1,28 @@
 ---
 name: nextjs:file-based-routing
-description: Use when understand file-based routing conventions with page.tsx, layout.tsx, loading.tsx, error.tsx, and not-found.tsx
+description: Use when nextjs file based routing
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:file-based-routing (Compact)
+# nextjs:file-based-routing (Micro)
 
 ## Use when
-- Understand file-based routing conventions with page.tsx, layout.tsx, loading.tsx, error.tsx, and not-found.tsx
+- Use when nextjs file based routing
 
-## Topics covered
-- Concept
-- Fichiers Spéciaux et Leur Rôle
-- Structure Complète avec Tous les Fichiers Spéciaux
-- Hiérarchie et Imbrication des Fichiers Spéciaux
-- Best Practices
-- Use Cases Courants
-- Points Clés
+## Tags
+- routing
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

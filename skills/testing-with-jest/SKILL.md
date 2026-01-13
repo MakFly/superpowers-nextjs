@@ -1,6 +1,6 @@
 ---
 name: nextjs:testing-with-jest
-description: Use when configure and write tests with Jest and React Testing Library for Next.js applications
+description: Use when nextjs testing with jest
 allowed-tools:
   - Read
   - Write
@@ -10,25 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:testing-with-jest (Compact)
+# nextjs:testing-with-jest (Micro)
 
 ## Use when
-- Configure and write tests with Jest and React Testing Library for Next.js applications
+- Use when nextjs testing with jest
 
-## Topics covered
-- Installation
-- Configuration
-- Unit Testing Examples
-- Form Testing
-- API Testing with Mocks
-- Hook Testing
-- Running Tests
-- CI/CD Integration
+## Tags
+- testing
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

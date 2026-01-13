@@ -1,32 +1,25 @@
 ---
 name: nextjs:dynamic-routes
-description: Use when implement dynamic routes with [param], [...catchAll], and [[...optionalCatchAll]] patterns
+description: Use when nextjs dynamic routes
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:dynamic-routes (Compact)
+# nextjs:dynamic-routes (Micro)
 
 ## Use when
-- Implement dynamic routes with [param], [...catchAll], and [[...optionalCatchAll]] patterns
+- Use when nextjs dynamic routes
 
-## Topics covered
-- Concept
-- Types de Segments Dynamiques
-- Comparaison des Trois Patterns
-- generateStaticParams
-- Best Practices
-- Points Clés
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

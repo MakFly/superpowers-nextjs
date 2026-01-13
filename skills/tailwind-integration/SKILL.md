@@ -1,34 +1,25 @@
 ---
 name: nextjs:tailwind-integration
-description: Use when configure and use Tailwind CSS with Next.js including dark mode and custom themes
+description: Use when nextjs tailwind integration
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:tailwind-integration (Compact)
+# nextjs:tailwind-integration (Micro)
 
 ## Use when
-- Configure and use Tailwind CSS with Next.js including dark mode and custom themes
+- Use when nextjs tailwind integration
 
-## Topics covered
-- Setup and Configuration
-- Core Patterns
-- Advanced Patterns
-- Utility Patterns
-- Performance Optimization
-- Testing Styles
-- Best Practices
-- File Structure
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

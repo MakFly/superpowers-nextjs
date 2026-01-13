@@ -1,34 +1,25 @@
 ---
 name: nextjs:nextdevtools-mcp-integration
-description: Use when nextDevTools MCP integration for Next.js 16 - development tools, server management, and debugging capabilities
+description: Use when nextjs nextdevtools mcp integration
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:nextdevtools-mcp-integration (Compact)
+# nextjs:nextdevtools-mcp-integration (Micro)
 
 ## Use when
-- NextDevTools MCP integration for Next.js 16 - development tools, server management, and debugging capabilities
+- Use when nextjs nextdevtools mcp integration
 
-## Topics covered
-- Overview
-- Quick Start
-- Available Tools
-- Usage Patterns
-- Configuration Options
-- Best Practices
-- CLI Commands
-- Troubleshooting
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

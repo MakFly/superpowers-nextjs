@@ -1,6 +1,6 @@
 ---
 name: nextjs:react-testing-library
-description: Use when test React components with RTL best practices - queries, user events, and async testing
+description: Use when nextjs react testing library
 allowed-tools:
   - Read
   - Write
@@ -10,25 +10,22 @@ allowed-tools:
   - Grep
 ---
 
-# nextjs:react-testing-library (Compact)
+# nextjs:react-testing-library (Micro)
 
 ## Use when
-- Test React components with RTL best practices - queries, user events, and async testing
+- Use when nextjs react testing library
 
-## Topics covered
-- Core Concepts
-- Query Types
-- Basic Component Testing
-- User Event Testing
-- Form Input Testing
-- Async Testing Patterns
-- Dialog/Modal Testing
-- Custom Hook Testing
+## Tags
+- testing
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details

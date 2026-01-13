@@ -1,31 +1,25 @@
 ---
 name: nextjs:using-nextjs-superpowers
-description: Use when entry point for Next.js Superpowers - lightweight workflow guidance and command map.
+description: Use when nextjs using nextjs superpowers
 allowed-tools:
   - Read
   - Glob
   - Grep
 ---
 
-# Using Next.js Superpowers (Compact)
+# nextjs:using-nextjs-superpowers (Micro)
 
-## When to use
-- Next.js App Router or Server Components work
-- Server Actions, caching, streaming, routing, performance
+## Use when
+- Use when nextjs using nextjs superpowers
 
-## How to operate
-1. Identify router type (app/pages/hybrid) and Next.js version.
-2. Prefer Server Components by default; use Client Components only when needed.
-3. Ask before starting any dev server or build.
-4. Use the project’s package manager; do not assume npm.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
 
-## Recommended entry skills
-- `app-router`, `server-components`, `server-actions`
-- `data-fetching-patterns`, `caching-strategies`, `revalidation`
-- `routing` skills (`dynamic-routes`, `route-groups`, `parallel-routes`)
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
-## Commands (only if user asks to run)
-- `/superpowers-nextjs:write-plan`
-- `/superpowers-nextjs:execute-plan`
-- `/superpowers-nextjs:nextjs-check`
-- `/superpowers-nextjs:nextjs-tdd-vitest`
+## References
+- None

@@ -1,34 +1,28 @@
 ---
 name: nextjs:api-routes
-description: Use when build API endpoints in app/api with route.ts handlers and HTTP method exports for RESTful services
+description: Use when nextjs api routes
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
 
-# nextjs:api-routes (Compact)
+# nextjs:api-routes (Micro)
 
 ## Use when
-- Build API endpoints in app/api with route.ts handlers and HTTP method exports for RESTful services
+- Use when nextjs api routes
 
-## Topics covered
-- Project Structure
-- Basic GET/POST Endpoint
-- Dynamic Route Handlers
-- Request Body Parsing
-- Error Handling
-- Response Headers
-- CORS Configuration
-- Security Considerations
+## Tags
+- api
 
-## Operating rules
-1. Keep changes minimal and focused.
-2. Ask before running servers, builds, or tests.
-3. Use project conventions and existing structure.
+## Do
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Follow existing project conventions
+
+## Avoid
+- Unnecessary context expansion
+- Changing unrelated files
 
 ## References
-See `reference.md` for full details and examples.
+- `reference.md` for full details
