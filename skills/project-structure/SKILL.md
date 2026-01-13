@@ -3,9 +3,6 @@ name: nextjs:project-structure
 description: Organize Next.js projects with feature-based or layer-based folder structures
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---

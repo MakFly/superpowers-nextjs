@@ -3,9 +3,6 @@ name: nextjs:brainstorming
 description: Structured ideation and feature discovery for Next.js applications - design patterns, architecture decisions, and implementation strategies
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---

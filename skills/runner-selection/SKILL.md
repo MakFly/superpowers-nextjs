@@ -3,9 +3,6 @@ name: nextjs:runner-selection
 description: Select and configure the appropriate package manager (npm/yarn/pnpm/bun) based on project configuration
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---

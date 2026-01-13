@@ -3,9 +3,6 @@ name: nextjs:writing-plans
 description: Implementation planning for Next.js features - task breakdown, dependency analysis, and execution roadmaps
 allowed-tools:
   - Read
-  - Write
-  - Edit
-  - Bash
   - Glob
   - Grep
 ---
