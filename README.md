@@ -71,6 +71,8 @@ If you see `Unknown skill`:
 
 Once installed, the plugin automatically detects Next.js projects and provides context-aware assistance.
 
+**Complexity tiers**: See `docs/complexity-tiers.md` for simple/medium/complex examples and how to adapt output.
+
 ### Interactive Commands
 
 - `/superpowers-nextjs:brainstorm` - Structured ideation for features
