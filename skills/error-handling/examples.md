@@ -1,10 +1,5 @@
 # Examples (Simple / Medium / Complex)
 
-## Simple
-- Error Handling: basic setup and minimal flow
-
-## Medium
-- Error Handling: auth + validation + basic caching
-
-## Complex
-- Error Handling: multi-tenant + tags + async jobs
+- Simple: Error Handling minimal flow
+- Medium: Error Handling auth + validation
+- Complex: Error Handling multi-tenant + async

@@ -13,8 +13,9 @@ description: Use when nextjs lazy loading
 - Use when nextjs lazy loading
 
 ## Rules
-- Ask before running servers/builds/tests; keep changes minimal
-
+- Keep changes minimal and focused
+- Ask before running servers/builds/tests
+- Load reference/examples only on explicit request
 ## References
 - `reference.md`
 - `examples.md`

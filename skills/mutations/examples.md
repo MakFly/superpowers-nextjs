@@ -1,10 +1,5 @@
 # Examples (Simple / Medium / Complex)
 
-## Simple
-- Mutations: basic setup and minimal flow
-
-## Medium
-- Mutations: auth + validation + basic caching
-
-## Complex
-- Mutations: multi-tenant + tags + async jobs
+- Simple: Mutations minimal flow
+- Medium: Mutations auth + validation
+- Complex: Mutations multi-tenant + async

@@ -1,10 +1,5 @@
 # Examples (Simple / Medium / Complex)
 
-## Simple
-- Dynamic Routes: basic setup and minimal flow
-
-## Medium
-- Dynamic Routes: auth + validation + basic caching
-
-## Complex
-- Dynamic Routes: multi-tenant + tags + async jobs
+- Simple: Dynamic Routes minimal flow
+- Medium: Dynamic Routes auth + validation
+- Complex: Dynamic Routes multi-tenant + async

@@ -1,10 +1,5 @@
 # Examples (Simple / Medium / Complex)
 
-## Simple
-- Route Handlers: basic setup and minimal flow
-
-## Medium
-- Route Handlers: auth + validation + basic caching
-
-## Complex
-- Route Handlers: multi-tenant + tags + async jobs
+- Simple: Route Handlers minimal flow
+- Medium: Route Handlers auth + validation
+- Complex: Route Handlers multi-tenant + async

@@ -1,10 +1,5 @@
 # Examples (Simple / Medium / Complex)
 
-## Simple
-- Authentication Patterns: basic setup and minimal flow
-
-## Medium
-- Authentication Patterns: auth + validation + basic caching
-
-## Complex
-- Authentication Patterns: multi-tenant + tags + async jobs
+- Simple: Authentication Patterns minimal flow
+- Medium: Authentication Patterns auth + validation
+- Complex: Authentication Patterns multi-tenant + async

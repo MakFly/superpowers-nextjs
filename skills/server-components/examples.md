@@ -1,10 +1,5 @@
 # Examples (Simple / Medium / Complex)
 
-## Simple
-- Server Components: basic setup and minimal flow
-
-## Medium
-- Server Components: auth + validation + basic caching
-
-## Complex
-- Server Components: multi-tenant + tags + async jobs
+- Simple: Server Components minimal flow
+- Medium: Server Components auth + validation
+- Complex: Server Components multi-tenant + async
