@@ -1,6 +1,5 @@
 ---
 name: nextjs:testing-with-jest
-description: Use when nextjs testing with jest
 allowed-tools:
   - Read
   - Write
@@ -8,6 +7,7 @@ allowed-tools:
   - Bash
   - Glob
   - Grep
+description: Use when nextjs testing with jest
 ---
 
 # nextjs:testing-with-jest (Micro)
@@ -15,17 +15,12 @@ allowed-tools:
 ## Use when
 - Use when nextjs testing with jest
 
-## Tags
-- testing
-
-## Do
-- Keep changes minimal and focused
-- Ask before running servers/builds/tests
-- Follow existing project conventions
-
-## Avoid
-- Unnecessary context expansion
-- Changing unrelated files
+## Rules
+- Ask before running servers/builds/tests; keep changes minimal
 
 ## References
-- `reference.md` for full details
+- `reference.md`
+- `examples.md`
+- `docs/complexity-tiers.md`
+- `docs/project-examples.md`
+- `docs/project-catalog.md`

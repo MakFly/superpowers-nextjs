@@ -1,10 +1,10 @@
 ---
 name: nextjs:using-nextjs-superpowers
-description: Use when nextjs using nextjs superpowers
 allowed-tools:
   - Read
   - Glob
   - Grep
+description: Use when nextjs using nextjs superpowers
 ---
 
 # nextjs:using-nextjs-superpowers (Micro)
@@ -12,15 +12,11 @@ allowed-tools:
 ## Use when
 - Use when nextjs using nextjs superpowers
 
-## Do
-- Keep changes minimal and focused
-- Ask before running servers/builds/tests
-- Follow existing project conventions
-
-## Avoid
-- Unnecessary context expansion
-- Changing unrelated files
+## Rules
+- Ask before running servers/builds/tests; keep changes minimal
 
 ## References
-- `docs/complexity-tiers.md` for simple/medium/complex examples
-- `docs/project-examples.md` for generic project examples
+- `examples.md`
+- `docs/complexity-tiers.md`
+- `docs/project-examples.md`
+- `docs/project-catalog.md`
