@@ -59,6 +59,14 @@ Then call:
 Use the skill nextjs:caching-strategies
 ```
 
+### Troubleshooting (Unknown skill)
+
+If you see `Unknown skill`:
+1. Restart Claude Code.
+2. Run `What skills are available?` to confirm the plugin is loaded.
+3. Ensure `enabledPlugins` includes `superpowers-nextjs@custom` in both configs.
+4. Use the fallback symlink if the plugin still does not expose skills.
+
 ## Quick Start
 
 Once installed, the plugin automatically detects Next.js projects and provides context-aware assistance.
