@@ -20,6 +20,45 @@ claude plugins add superpowers-nextjs
 
 Or add to your Claude Code plugins configuration.
 
+### Manual install (git clone)
+
+```bash
+git clone https://github.com/MakFly/superpowers-nextjs.git ~/.claude/plugins/superpowers-nextjs
+```
+
+Enable the plugin in both configs (Claude + GLM):
+
+```json
+// ~/.claude/settings.json
+{
+  "enabledPlugins": {
+    "superpowers-nextjs@custom": true
+  }
+}
+```
+
+```json
+// ~/.claude-glm/.claude.json
+{
+  "enabledPlugins": {
+    "superpowers-nextjs@custom": true
+  }
+}
+```
+
+Restart Claude Code.
+
+### Fallback: symlink skills (if plugin skills don’t load)
+
+```bash
+ln -s ~/.claude/plugins/superpowers-nextjs/skills/caching-strategies ~/.claude/skills/nextjs-caching-strategies
+```
+
+Then call:
+```
+Use the skill nextjs:caching-strategies
+```
+
 ## Quick Start
 
 Once installed, the plugin automatically detects Next.js projects and provides context-aware assistance.
